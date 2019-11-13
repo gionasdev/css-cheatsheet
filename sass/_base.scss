@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: gainsboro;
+}
+
+.header {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  width: 100vw;
+  height: 60vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 70%);
+  clip-path: polygon(0 0, 100% 0, 0 70%);
+  position: relative;
+
+  &__text {
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    color: #fff;
+    font-weight: bold;
+  }
+}
