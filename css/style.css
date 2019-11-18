@@ -11,16 +11,36 @@ body {
   background-color: gainsboro; }
 
 .sidebar {
-  width: 220px;
+  width: 250px;
   height: 100vh;
   background-image: linear-gradient(to bottom, #4da0b0, #d39d38);
   position: fixed;
   border-radius: 0 15px 15px 0;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .sidebar__heading {
-    margin-top: 25px;
+    margin: 25px 0 55px 0;
     text-align: center;
     color: #fff; }
+  .sidebar__nav__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px; }
+  .sidebar__nav__item {
+    display: block;
+    padding: 10px 8px; }
+  .sidebar__nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-radius: 15px 5px 15px 5px;
+    border: 2px solid white;
+    transition: all 0.4s;
+    text-transform: uppercase; }
+  .sidebar__nav__link:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
 
 .main {
   padding-left: 230px;
