@@ -29,30 +29,39 @@ body {
   &__nav {
     &__list {
       list-style-type: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
       height: 200px;
     }
 
     &__item {
-      display: block;
-      padding: 10px 8px;
+      margin: 20px;
     }
 
     &__link {
-      color: #fff;
-      text-decoration: none;
-      display: block;
-      padding: 15px;
-      border-radius: 15px 5px 15px 5px;
-      border: 2px solid white;
-      transition: all 0.4s;
-      text-transform: uppercase;
-    }
+      &:link,
+      &:visited {
+        display: block;
+        padding: 15px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 2px solid white;
+        border-radius: 15px 5px 15px 5px;
+        transition: all 0.4s;
+        background-image: linear-gradient(
+          130deg,
+          transparent 0%,
+          transparent 50%,
+          rgba(0, 0, 0, 0.1) 50%
+        );
+        background-size: 150%;
+      }
 
-    &__link:hover {
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      &:hover,
+      &:active {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        background-position: 100%;
+        transform: translateX(1rem);
+      }
     }
   }
 }
