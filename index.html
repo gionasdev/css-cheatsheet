@@ -19,7 +19,7 @@
       <nav class="sidebar__nav">
         <ul class="sidebar__nav__list">
           <li class="sidebar__nav__item">
-            <a href="#" class="sidebar__nav__link">Flexbox layout</a>
+            <a href="#flexbox" class="sidebar__nav__link">Flexbox layout</a>
           </li>
           <li class="sidebar__nav__item">
             <a href="#" class="sidebar__nav__link">Grid layout</a>
@@ -32,14 +32,38 @@
           </li>
         </ul>
       </nav>
-      <footer class="sidebar__footer">Gionas</footer>
+      <footer class="sidebar__footer">
+        <svg class="sidebar__footer__icon">
+          <use xlink:href="img/sprite.svg#icon-github"></use>
+        </svg>
+        <svg class="sidebar__footer__icon">
+          <use xlink:href="img/sprite.svg#icon-mail4"></use>
+        </svg>
+        <svg class="sidebar__footer__icon">
+          <use xlink:href="img/sprite.svg#icon-safari"></use>
+        </svg>
+      </footer>
     </aside>
     <main class="container">
       <header class="header">
-        Hello
+        <h1 class="header__heading1">CSS Cheatsheet</h1>
+        <h2 class="header__heading2">A reference for CSS goodness</h2>
+        <p class="header__paragraph">It's quite difficult to remember everything I learned in the vast world of CSS. This gitrepo collects everything I've seen and I learned by following courses and visiting related websites.</p>
+        <svg class="header__icon">
+          <use xlink:href="img/sprite.svg#icon-chevron-thin-down"></use>
+        </svg>
       </header>
-      <section class="flexbox">
-
+      <section id="flexbox" class="flexbox">
+        <h1>Flexbox</h1>
+      </section>
+      <section id="grid" class="grid">
+        <h1>Grid</h1>
+      </section>
+      <section id="float" class="float">
+        <h1>Float</h1>
+      </section>
+      <section id="others" class="others">
+        <h1>Others</h1>
       </section>
     </main>
   </body>

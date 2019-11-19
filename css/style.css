@@ -48,6 +48,45 @@ body {
   .sidebar__footer {
     margin-bottom: 10px;
     text-align: center; }
+    .sidebar__footer__icon {
+      height: 20px;
+      width: 20px;
+      margin: 0 10px 0 10px;
+      fill: #fff;
+      cursor: pointer;
+      transition: all 0.4s; }
+      .sidebar__footer__icon:hover {
+        transform: translateY(-2.5px); }
 
 .container {
   padding-left: 250px; }
+
+.header {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
+  background-size: 150%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .header__heading1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 30px; }
+  .header__heading2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px; }
+  .header__paragraph {
+    font-size: 1.5rem;
+    padding: 0 20px 0 20px; }
+  .header__icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    transition: all 0.4s; }

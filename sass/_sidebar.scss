@@ -59,5 +59,18 @@
   &__footer {
     margin-bottom: 10px;
     text-align: center;
+
+    &__icon {
+      height: 20px;
+      width: 20px;
+      margin: 0 10px 0 10px;
+      fill: #fff;
+      cursor: pointer;
+      transition: all 0.4s;
+
+      &:hover {
+        transform: translateY(-2.5px);
+      }
+    }
   }
 }
