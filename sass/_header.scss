@@ -39,7 +39,22 @@
     height: 40px;
     position: absolute;
     right: 50%;
-    bottom: 0;
+    bottom: 10px;
     transition: all 0.4s;
+
+    animation: moveInBottom 1s ease-out 0 infinite;
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }

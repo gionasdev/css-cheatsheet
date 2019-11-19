@@ -44,7 +44,8 @@ body {
     .sidebar__nav__link:hover, .sidebar__nav__link:active {
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       background-position: 100%;
-      transform: translateX(10px); }
+      transform: translateX(10px);
+      color: #111; }
   .sidebar__footer {
     margin-bottom: 10px;
     text-align: center; }
@@ -88,5 +89,13 @@ body {
     height: 40px;
     position: absolute;
     right: 50%;
-    bottom: 0;
-    transition: all 0.4s; }
+    bottom: 10px;
+    transition: all 0.4s;
+    animation: moveInBottom 1s ease-out 0 infinite; }
+
+@keyframes moveInBottom {
+  0% { }
+  80% {
+    transform: translateY(10px); }
+  100% {
+    transform: translateY(0); } }
