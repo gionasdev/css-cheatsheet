@@ -85,7 +85,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
-  background-size: 150%;
+  background-size: cover;
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1); }
   .header__text {
     text-align: center; }
@@ -106,11 +106,12 @@ body {
     right: 50%;
     bottom: 1rem;
     transition: all 0.4s;
-    animation: moveInBottom 1s ease-out 0 infinite; }
+    animation: moveInBottom 1s infinite; }
 
 @keyframes moveInBottom {
-  0% { }
+  0% {
+    transform: translateY(0); }
   80% {
-    transform: translateY(1rem); }
+    transform: translateY(10px); }
   100% {
     transform: translateY(0); } }
