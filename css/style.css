@@ -80,13 +80,22 @@ body {
 .header {
   height: 100vh;
   position: relative;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
-  background-size: cover;
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1); }
+  align-items: center; }
+  .header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 25%;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    z-index: -1;
+    background-image: linear-gradient(45deg, var(--primary-color), var(--secondary-color)); }
   .header__text {
     text-align: center; }
   .header__heading1 {
