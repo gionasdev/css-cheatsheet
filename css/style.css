@@ -18,7 +18,6 @@ html {
 body {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
   line-height: 1.7;
   background-color: gainsboro;
   box-sizing: border-box; }
@@ -123,7 +122,15 @@ body {
   .section__heading--1 {
     font-size: 4.5rem; }
   .section__paragraph {
+    font-size: 1.6rem;
     margin-bottom: 2rem; }
+  .section__wrap {
+    border-radius: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.2); }
+  .section__code {
+    font-size: 1.6rem;
+    padding: 2rem;
+    border-radius: 1.5rem; }
   .section__box {
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 1.5rem;
@@ -135,11 +142,12 @@ body {
   align-items: stretch;
   height: 25rem; }
   .flexbox__container__box {
-    background-image: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     font-size: 4.5rem;
     color: var(--white-color);
-    flex: 0 0 20%;
     border-radius: 1.5rem;
+    border: 2px solid var(--white-color);
+    background-image: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    flex: 0 0 20%;
     display: flex;
     justify-content: center;
     align-items: center; }
