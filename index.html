@@ -56,14 +56,46 @@
         </svg>
       </header>
       <section id="flexbox" class="section flexbox">
-        <h1 class="section__heading--1">Flexbox</h1>
+        <h3 class="section__heading--1">Flexbox</h3>
         <p class="section__paragraph">The Flexible Box Layout Module, allows you to easily generate a responsive design without using positioning and float.</p>
+        <h4 class="section__heading--2">display</h4>
+        <p class="section__paragraph">In this case I have a <b>div</b> with a class name: <b>container</b> with 4 boxes. I set to the class <b>container</b> this properties that trasform the div to a block-level flex container box.</p>
         <div class="section__wrap">
-            <div class="section__code">
-                <code>.container { display: flex; }</code>
-            </div>
+            <div class="section__code" spellcheck="false">.container {
+  display: flex;
+}</div>
             <div class="section__box">
                 <div class="flexbox__container">
+                    <div class="flexbox__container__box">1</div>
+                    <div class="flexbox__container__box">2</div>
+                    <div class="flexbox__container__box">3</div>
+                    <div class="flexbox__container__box">4</div>
+                </div>
+            </div>
+        </div>
+        <h4 class="section__heading--2">flex-direction</h4>
+        <p class="section__paragraph"></p>
+        <div class="section__wrap">
+            <div class="section__code" spellcheck="false">.container {
+    display: flex;
+    flex-direction: row;
+}</div>
+            <div class="section__box">
+                <div class="flexbox__container">
+                    <div class="flexbox__container__box">1</div>
+                    <div class="flexbox__container__box">2</div>
+                    <div class="flexbox__container__box">3</div>
+                    <div class="flexbox__container__box">4</div>
+                </div>
+            </div>
+        </div>
+        <div class="section__wrap">
+            <div class="section__code" spellcheck="false">.container {
+    display: flex;
+    flex-direction: row-reverse;
+}</div>
+            <div class="section__box">
+                <div class="flexbox__container flexbox__container--row-reverse">
                     <div class="flexbox__container__box">1</div>
                     <div class="flexbox__container__box">2</div>
                     <div class="flexbox__container__box">3</div>
