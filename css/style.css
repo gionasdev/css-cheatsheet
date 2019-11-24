@@ -163,6 +163,12 @@ body {
   border-radius: 1.5rem; }
   .flexbox__container--row-reverse {
     flex-direction: row-reverse; }
+  .flexbox__container--column {
+    flex-direction: column;
+    height: 30rem; }
+  .flexbox__container--column-reverse {
+    flex-direction: column-reverse;
+    height: 30rem; }
   .flexbox__container__box {
     font-size: 4.5rem;
     color: var(--white-color);

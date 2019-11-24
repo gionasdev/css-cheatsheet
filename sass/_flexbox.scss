@@ -10,6 +10,16 @@
       flex-direction: row-reverse;
     }
 
+    &--column {
+      flex-direction: column;
+      height: 30rem;
+    }
+
+    &--column-reverse {
+      flex-direction: column-reverse;
+      height: 30rem;
+    }
+
     &__box {
       font-size: 4.5rem;
       color: var(--white-color);
