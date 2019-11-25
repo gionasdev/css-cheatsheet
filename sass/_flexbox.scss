@@ -13,11 +13,11 @@
     &--column {
       flex-direction: column;
       height: 30rem;
-    }
 
-    &--column-reverse {
-      flex-direction: column-reverse;
-      height: 30rem;
+      &-reverse {
+        flex-direction: column-reverse;
+        height: 30rem;
+      }
     }
 
     &__box {

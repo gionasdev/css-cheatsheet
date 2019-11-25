@@ -148,8 +148,7 @@ body {
     font-family: monospace;
     font-size: 1.3rem;
     padding: 2rem;
-    border-radius: 1.5rem;
-    white-space: pre; }
+    border-radius: 1.5rem; }
   .section__box {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
@@ -168,9 +167,9 @@ body {
   .flexbox__container--column {
     flex-direction: column;
     height: 30rem; }
-  .flexbox__container--column-reverse {
-    flex-direction: column-reverse;
-    height: 30rem; }
+    .flexbox__container--column-reverse {
+      flex-direction: column-reverse;
+      height: 30rem; }
   .flexbox__container__box {
     font-size: 4.5rem;
     color: var(--white-color);
