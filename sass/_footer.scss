@@ -1,0 +1,17 @@
+.footer {
+  margin-bottom: 1rem;
+  text-align: center;
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 1rem 0 1rem;
+    fill: var(--white-color);
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}

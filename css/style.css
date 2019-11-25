@@ -37,42 +37,44 @@ body {
     margin: 2.5rem 0 5rem 0;
     text-align: center;
     text-transform: uppercase; }
-  .sidebar__nav {
-    margin-bottom: auto; }
-    .sidebar__nav__list {
-      list-style-type: none; }
-    .sidebar__nav__item {
-      margin: 2rem; }
-    .sidebar__nav__link:link, .sidebar__nav__link:visited {
-      display: block;
-      padding: 1.5rem;
-      color: var(--white-color);
-      font-size: 1.5rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      border: 0.2rem solid var(--white-color);
-      border-radius: 1.5rem 0.5rem 1.5rem 0.5rem;
-      transition: all 0.4s;
-      background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
-      background-size: 150%; }
-    .sidebar__nav__link:hover, .sidebar__nav__link:active {
-      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-      background-position: 100%;
-      transform: translateX(1rem);
-      color: var(--black-color);
-      border: 0.2rem solid black; }
-  .sidebar__footer {
-    margin-bottom: 1rem;
-    text-align: center; }
-    .sidebar__footer__icon {
-      height: 2rem;
-      width: 2rem;
-      margin: 0 1rem 0 1rem;
-      fill: var(--white-color);
-      cursor: pointer;
-      transition: all 0.4s; }
-      .sidebar__footer__icon:hover {
-        transform: translateY(-5px); }
+
+.nav {
+  margin-bottom: auto; }
+  .nav__list {
+    list-style-type: none; }
+  .nav__item {
+    margin: 2rem; }
+  .nav__link:link, .nav__link:visited {
+    display: block;
+    padding: 1.5rem;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0.2rem solid var(--white-color);
+    border-radius: 1.5rem 0.5rem 1.5rem 0.5rem;
+    transition: all 0.4s;
+    background-image: linear-gradient(130deg, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 150%; }
+  .nav__link:hover, .nav__link:active {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background-position: 100%;
+    transform: translateX(1rem);
+    color: var(--black-color);
+    border: 0.2rem solid black; }
+
+.footer {
+  margin-bottom: 1rem;
+  text-align: center; }
+  .footer__icon {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 1rem 0 1rem;
+    fill: var(--white-color);
+    cursor: pointer;
+    transition: all 0.4s; }
+    .footer__icon:hover {
+      transform: translateY(-5px); }
 
 .container {
   padding-left: var(--sidebar-width); }
