@@ -20,6 +20,18 @@
       }
     }
 
+    &--wrap {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      height: auto;
+
+      &-reverse {
+        justify-content: flex-start;
+        flex-wrap: wrap-reverse;
+        height: auto;
+      }
+    }
+
     &__box {
       font-size: 4.5rem;
       color: var(--white-color);

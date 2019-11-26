@@ -65,6 +65,7 @@
           The Flexible Box Layout Module, allows you to easily generate a
           responsive design without using positioning and float.
         </p>
+
         <h4 class="section__heading--2">display</h4>
         <p class="section__paragraph">
           In this case I have a <b>div</b> with a class name:
@@ -85,11 +86,12 @@
             </div>
           </div>
         </div>
+
         <h4 class="section__heading--2">flex-direction</h4>
         <p class="section__paragraph"></p>
         <div class="section__wrap">
           <div class="section__code">
-            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: row; </br> }
+            .container { </br> &ensp; display: flex; </br> &ensp; <strong>flex-direction: row;</strong> </br> }
           </div>
           <div class="section__box">
             <div class="flexbox__container">
@@ -102,7 +104,7 @@
         </div>
         <div class="section__wrap">
           <div class="section__code">
-            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: row-reverse; </br> }
+            .container { </br> &ensp; display: flex; </br> &ensp; <strong>flex-direction: row-reverse;</strong> </br> }
           </div>
           <div class="section__box">
             <div class="flexbox__container flexbox__container--row-reverse">
@@ -115,7 +117,7 @@
         </div>
         <div class="section__wrap">
           <div class="section__code">
-            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: column; </br> }
+            .container { </br> &ensp; display: flex; </br> &ensp; <strong>flex-direction: column;</strong> </br> }
           </div>
           <div class="section__box">
             <div class="flexbox__container flexbox__container--column">
@@ -128,7 +130,7 @@
         </div>
         <div class="section__wrap">
           <div class="section__code">
-            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: column-reverse; </br> }
+            .container { </br> &ensp; display: flex; </br> &ensp; <strong>flex-direction: column-reverse;</strong> </br> }
           </div>
           <div class="section__box">
             <div class="flexbox__container flexbox__container--column-reverse">
@@ -136,6 +138,53 @@
               <div class="flexbox__container__box">2</div>
               <div class="flexbox__container__box">3</div>
               <div class="flexbox__container__box">4</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="section__heading--2">flex-wrap</h4>
+        <div class="section__wrap">
+          <div class="section__code">
+            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: row;  </br> &ensp; <strong>flex-wrap: nowrap</strong> </br> }
+          </div>
+          <div class="section__box">
+            <div class="flexbox__container flexbox__container--nowrap">
+              <div class="flexbox__container__box">1</div>
+              <div class="flexbox__container__box">2</div>
+              <div class="flexbox__container__box">3</div>
+              <div class="flexbox__container__box">4</div>
+              <div class="flexbox__container__box">5</div>
+              <div class="flexbox__container__box">6</div>
+            </div>
+          </div>
+        </div>
+        <div class="section__wrap">
+          <div class="section__code">
+            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: row;  </br> &ensp; <strong>flex-wrap: wrap</strong> </br> }
+          </div>
+          <div class="section__box">
+            <div class="flexbox__container flexbox__container--wrap">
+              <div class="flexbox__container__box">1</div>
+              <div class="flexbox__container__box">2</div>
+              <div class="flexbox__container__box">3</div>
+              <div class="flexbox__container__box">4</div>
+              <div class="flexbox__container__box">5</div>
+              <div class="flexbox__container__box">6</div>
+            </div>
+          </div>
+        </div>
+        <div class="section__wrap">
+          <div class="section__code">
+            .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: row;  </br> &ensp; <strong>flex-wrap: wrap-reverse</strong> </br> }
+          </div>
+          <div class="section__box">
+            <div class="flexbox__container flexbox__container--wrap-reverse">
+              <div class="flexbox__container__box">1</div>
+              <div class="flexbox__container__box">2</div>
+              <div class="flexbox__container__box">3</div>
+              <div class="flexbox__container__box">4</div>
+              <div class="flexbox__container__box">5</div>
+              <div class="flexbox__container__box">6</div>
             </div>
           </div>
         </div>

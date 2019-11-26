@@ -77,7 +77,8 @@ body {
       transform: translateY(-5px); }
 
 .container {
-  padding-left: var(--sidebar-width); }
+  padding-left: var(--sidebar-width);
+  overflow: hidden; }
 
 .header {
   height: 100vh;
@@ -170,6 +171,14 @@ body {
     .flexbox__container--column-reverse {
       flex-direction: column-reverse;
       height: 30rem; }
+  .flexbox__container--wrap {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: auto; }
+    .flexbox__container--wrap-reverse {
+      justify-content: flex-start;
+      flex-wrap: wrap-reverse;
+      height: auto; }
   .flexbox__container__box {
     font-size: 4.5rem;
     color: var(--white-color);
