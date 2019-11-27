@@ -139,19 +139,19 @@ body {
   .section__paragraph {
     font-size: 1.6rem;
     margin-bottom: 2rem; }
-  .section__wrap {
+  .section__example {
     display: flex;
     border-radius: 1.5rem;
     background-color: rgba(0, 0, 0, 0.2);
     margin-bottom: 2rem; }
   .section__code {
-    min-width: 30%;
+    flex: 0 0 30%;
     font-family: monospace;
     font-size: 1.3rem;
     padding: 2rem;
     border-radius: 1.5rem; }
   .section__box {
-    width: 100%;
+    flex: 0 0 70%;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 1.5rem;
     padding: 2rem;
@@ -159,26 +159,19 @@ body {
 
 .flexbox__container {
   display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-  height: 10rem;
   border-radius: 1.5rem; }
   .flexbox__container--row-reverse {
     flex-direction: row-reverse; }
   .flexbox__container--column {
-    flex-direction: column;
-    height: 30rem; }
+    flex-direction: column; }
     .flexbox__container--column-reverse {
-      flex-direction: column-reverse;
-      height: 30rem; }
+      flex-direction: column-reverse; }
   .flexbox__container--wrap {
     justify-content: flex-start;
-    flex-wrap: wrap;
-    height: auto; }
+    flex-wrap: wrap; }
     .flexbox__container--wrap-reverse {
       justify-content: flex-start;
-      flex-wrap: wrap-reverse;
-      height: auto; }
+      flex-wrap: wrap-reverse; }
 
 .flexbox__box {
   font-size: 4.5rem;

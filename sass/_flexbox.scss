@@ -1,9 +1,6 @@
 .flexbox {
   &__container {
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    height: 10rem;
     border-radius: 1.5rem;
 
     &--row-reverse {
@@ -12,23 +9,19 @@
 
     &--column {
       flex-direction: column;
-      height: 30rem;
 
       &-reverse {
         flex-direction: column-reverse;
-        height: 30rem;
       }
     }
 
     &--wrap {
       justify-content: flex-start;
       flex-wrap: wrap;
-      height: auto;
 
       &-reverse {
         justify-content: flex-start;
         flex-wrap: wrap-reverse;
-        height: auto;
       }
     }
   }
