@@ -69,8 +69,8 @@
         <h4 class="section__heading--2">display</h4>
         <p class="section__paragraph">
           In this case I have a <b>div</b> with a class name:
-          <b>container</b> with 4 boxes. I set to the class
-          <b>container</b> this properties that trasform the div to a
+          <b>container</b> with 4 boxes (flex items). I set to the class
+          <b>container</b> (flex container) this properties that trasform the div to a
           block-level flex container box.
         </p>
         <div class="section__example">
@@ -88,8 +88,8 @@
         </div>
 
         <h4 class="section__heading--2">flex-direction</h4>
-        <p class="section__paragraph"></p>
-        <div class="section__example">
+        <p class="section__paragraph">This property sets how flex items are placed in the flex container.</p>
+        <div class="section__example section__example--default">
           <div class="section__code">
             .container { </br> &ensp; display: flex; </br> &ensp; <strong>flex-direction: row;</strong> </br> }
           </div>
@@ -143,7 +143,8 @@
         </div>
 
         <h4 class="section__heading--2">flex-wrap</h4>
-        <div class="section__example">
+        <p class="section__paragraph"> This property sets whether flex items are forced onto one line or can wrap onto multiple lines.</p>
+        <div class="section__example section__example--default">
           <div class="section__code">
             .container { </br> &ensp; display: flex; </br> &ensp; flex-direction: row;  </br> &ensp; <strong>flex-wrap: nowrap</strong> </br> }
           </div>
