@@ -183,6 +183,8 @@ body {
     .flexbox__container--wrap-reverse {
       justify-content: flex-start;
       flex-wrap: wrap-reverse; }
+  .flexbox__container--flow {
+    flex-flow: row wrap-reverse; }
 
 .flexbox__box {
   font-size: 4.5rem;
