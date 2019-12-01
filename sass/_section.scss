@@ -21,18 +21,18 @@
     margin-bottom: 2rem;
 
     &--default {
-        position: relative;
-        border: 2px solid #43C6AC;
+      position: relative;
+      border: 2px solid #43c6ac;
 
-        &::before {
-            content: "Default";
-            display: block;
-            position: absolute;
-            top: -18px;
-            left: 10px;
-            font-weight: bold;
-            color: #43C6AC;
-        }
+      &::before {
+        content: "Default";
+        display: block;
+        position: absolute;
+        top: -18px;
+        left: 10px;
+        font-weight: bold;
+        color: #43c6ac;
+      }
     }
   }
 

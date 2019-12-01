@@ -146,7 +146,7 @@ body {
     margin-bottom: 2rem; }
     .section__example--default {
       position: relative;
-      border: 2px solid #43C6AC; }
+      border: 2px solid #43c6ac; }
       .section__example--default::before {
         content: "Default";
         display: block;
@@ -154,7 +154,7 @@ body {
         top: -18px;
         left: 10px;
         font-weight: bold;
-        color: #43C6AC; }
+        color: #43c6ac; }
   .section__code {
     flex: 0 0 30%;
     font-family: monospace;
@@ -185,6 +185,16 @@ body {
       flex-wrap: wrap-reverse; }
   .flexbox__container--flow {
     flex-flow: row wrap-reverse; }
+  .flexbox__container--end {
+    justify-content: flex-end; }
+  .flexbox__container--center {
+    justify-content: center; }
+  .flexbox__container--space-between {
+    justify-content: space-between; }
+  .flexbox__container--space-around {
+    justify-content: space-around; }
+  .flexbox__container--space-evenly {
+    justify-content: space-evenly; }
 
 .flexbox__box {
   font-size: 4.5rem;

@@ -26,7 +26,27 @@
     }
 
     &--flow {
-        flex-flow: row wrap-reverse;
+      flex-flow: row wrap-reverse;
+    }
+
+    &--end {
+      justify-content: flex-end;
+    }
+
+    &--center {
+      justify-content: center;
+    }
+
+    &--space-between {
+      justify-content: space-between;
+    }
+
+    &--space-around {
+      justify-content: space-around;
+    }
+
+    &--space-evenly {
+      justify-content: space-evenly;
     }
   }
 
