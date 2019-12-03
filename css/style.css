@@ -170,7 +170,8 @@ body {
 
 .flexbox__container {
   display: flex;
-  border-radius: 1.5rem; }
+  border-radius: 1.5rem;
+  border: 1px dotted var(--white-color); }
   .flexbox__container--row-reverse {
     flex-direction: row-reverse; }
   .flexbox__container--column {
@@ -195,6 +196,14 @@ body {
     justify-content: space-around; }
   .flexbox__container--space-evenly {
     justify-content: space-evenly; }
+  .flexbox__container--align-items {
+    height: 15rem; }
+  .flexbox__container--flex-start {
+    align-items: flex-start; }
+  .flexbox__container--flex-end {
+    align-items: flex-end; }
+  .flexbox__container--flex-center {
+    align-items: center; }
 
 .flexbox__box {
   font-size: 4.5rem;

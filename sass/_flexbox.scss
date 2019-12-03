@@ -2,6 +2,7 @@
   &__container {
     display: flex;
     border-radius: 1.5rem;
+    border: 1px dotted var(--white-color);
 
     &--row-reverse {
       flex-direction: row-reverse;
@@ -48,6 +49,23 @@
     &--space-evenly {
       justify-content: space-evenly;
     }
+
+    &--align-items {
+        height: 15rem;
+    }
+
+    &--flex-start {
+        align-items: flex-start;
+    }
+
+    &--flex-end {
+        align-items: flex-end;
+    }
+
+    &--flex-center {
+        align-items: center;
+    }
+    
   }
 
   &__box {
