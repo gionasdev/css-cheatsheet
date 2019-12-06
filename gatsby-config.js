@@ -8,6 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `CSS Cheat Sheet`
   },
+  pathPrefix: "/css-cheatsheet",
   plugins: [
     `gatsby-plugin-sass`,
     {
