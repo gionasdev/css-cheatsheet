@@ -295,7 +295,7 @@ const Footer = () => {
       </div>
 
       <h4 class="section__heading--2">align-items</h4>
-      <p class="section__paragraph"></p>
+      <p class="section__paragraph">This property sets the alignment for all the items.</p>
       <div class="section__example section__example--default">
         <div class="section__code">
           .container {`{`} <br />
@@ -377,6 +377,134 @@ const Footer = () => {
             <div class="flexbox__box">2</div>
             <div class="flexbox__box flexbox__box--height">3</div>
             <div class="flexbox__box">4</div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="section__heading--2">align-content</h4>
+      <p class="section__paragraph"></p>
+      <div class="section__example section__example--default">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; flex-wrap: wrap; <br />
+          &ensp; <strong>align-content: stretch;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align-c flexbox__container--wrap">
+            <div class="flexbox__box">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+            <div class="flexbox__box">5</div>
+            <div class="flexbox__box">6</div>
+            <div class="flexbox__box">7</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__example">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; flex-wrap: wrap; <br />
+          &ensp; <strong>align-content: flex-start;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align-c flexbox__container--align-c-start flexbox__container--wrap">
+            <div class="flexbox__box">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+            <div class="flexbox__box">5</div>
+            <div class="flexbox__box">6</div>
+            <div class="flexbox__box">7</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__example">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; flex-wrap: wrap; <br />
+          &ensp; <strong>align-content: flex-end;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align-c flexbox__container--align-c-end flexbox__container--wrap">
+            <div class="flexbox__box">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+            <div class="flexbox__box">5</div>
+            <div class="flexbox__box">6</div>
+            <div class="flexbox__box">7</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__example">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; flex-wrap: wrap; <br />
+          &ensp; <strong>align-content: center;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align-c flexbox__container--align-c-center flexbox__container--wrap">
+            <div class="flexbox__box">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+            <div class="flexbox__box">5</div>
+            <div class="flexbox__box">6</div>
+            <div class="flexbox__box">7</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__example">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; flex-wrap: wrap; <br />
+          &ensp; <strong>align-content: space-between;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align-c flexbox__container--align-c-between flexbox__container--wrap">
+            <div class="flexbox__box">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+            <div class="flexbox__box">5</div>
+            <div class="flexbox__box">6</div>
+            <div class="flexbox__box">7</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__example">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; flex-wrap: wrap; <br />
+          &ensp; <strong>align-content: space-around;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align-c flexbox__container--align-c-around flexbox__container--wrap">
+            <div class="flexbox__box">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+            <div class="flexbox__box">5</div>
+            <div class="flexbox__box">6</div>
+            <div class="flexbox__box">7</div>
           </div>
         </div>
       </div>

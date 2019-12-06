@@ -67,6 +67,30 @@
             align-items: baseline;
         }
     }
+
+    &--align-c {
+        height: 20rem;
+
+        &-start {
+            align-content: flex-start;
+        }
+
+        &-end {
+            align-content: flex-end;
+        }
+
+        &-center {
+            align-content: center;
+        }
+
+        &-between {
+             align-content: space-between;
+        }
+
+        &-around {
+             align-content: space-around;
+        }
+    }
     
   }
 
