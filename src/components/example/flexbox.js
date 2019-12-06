@@ -217,7 +217,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--end">
+          <div class="flexbox__container flexbox__container--justify-end">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -234,7 +234,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--center">
+          <div class="flexbox__container flexbox__container--justify-center">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -251,7 +251,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--space-between">
+          <div class="flexbox__container flexbox__container--justify-between">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -268,7 +268,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--space-around">
+          <div class="flexbox__container flexbox__container--justify-around">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -285,7 +285,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--space-evenly">
+          <div class="flexbox__container flexbox__container--justify-evenly">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -304,7 +304,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--align-items">
+          <div class="flexbox__container flexbox__container--align">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -321,7 +321,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--align-items flexbox__container--flex-start">
+          <div class="flexbox__container flexbox__container--align flexbox__container--align-start">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -338,7 +338,7 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--align-items flexbox__container--flex-end">
+          <div class="flexbox__container flexbox__container--align flexbox__container--align-end">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
@@ -355,10 +355,27 @@ const Footer = () => {
           {`}`}
         </div>
         <div class="section__box">
-          <div class="flexbox__container flexbox__container--align-items flexbox__container--flex-center">
+          <div class="flexbox__container flexbox__container--align flexbox__container--align-center">
             <div class="flexbox__box">1</div>
             <div class="flexbox__box">2</div>
             <div class="flexbox__box">3</div>
+            <div class="flexbox__box">4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__example">
+        <div class="section__code">
+          .container {`{`} <br />
+          &ensp; display: flex; <br />
+          &ensp; <strong>align-items: baseline;</strong> <br />
+          {`}`}
+        </div>
+        <div class="section__box">
+          <div class="flexbox__container flexbox__container--align flexbox__container--align-baseline">
+            <div class="flexbox__box flexbox__box--height">1</div>
+            <div class="flexbox__box">2</div>
+            <div class="flexbox__box flexbox__box--height">3</div>
             <div class="flexbox__box">4</div>
           </div>
         </div>
