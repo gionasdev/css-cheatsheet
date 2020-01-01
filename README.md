@@ -8,6 +8,6 @@ I chose to use <a href="https://www.gatsbyjs.org">Gatsby JS</a> because it's per
 
 Check it <a href="https://gionasdev.github.io/css-cheatsheet/">here</a>.
 
-Work in progress:
+:construction: Work in progress :construction:
 - ( In Progress ) Flexbox Layout
-- ( Not Started ) Grid Layout
+- ( Not started ) Grid Layout
