@@ -52,3 +52,24 @@
     margin-right: auto;
   }
 }
+
+.spoiler {
+    display: none;
+}
+
+input[class="spoiler"] + label {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+}
+
+input[class="spoiler"]:checked ~ .spoiler {
+  display: flex;
+}
+
+input[class="spoiler"]:checked + label {
+    font-weight: bold;
+}

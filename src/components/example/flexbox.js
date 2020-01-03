@@ -9,14 +9,17 @@ const Footer = () => {
         responsive design without using positioning and float.
       </p>
 
-      <h4 class="section__heading--2">display</h4>
+      <h1 class="section__heading--2">display</h1>
       <p class="section__paragraph">
         In this case I have a <b>div</b> with a class name:
         <b>container</b> with 4 boxes (flex items). I set to the class
         <b>container</b> (flex container) this properties that trasform the div
         to a block-level flex container box.
       </p>
-      <div class="section__example">
+
+      <input type="checkbox" className="spoiler" id="display" /> 
+      <label for="display">Example</label>
+      <div class="section__example spoiler">
         <div class="section__code">
           .container {`{`} <br />
           &ensp; display: flex; <br />
