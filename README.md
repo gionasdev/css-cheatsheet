@@ -8,6 +8,10 @@ I chose to use <a href="https://www.gatsbyjs.org">Gatsby JS</a> because it's per
 
 Check it <a href="https://gionasdev.github.io/css-cheatsheet/">here</a>.
 
+////////
+
+For the deploy on the github pages I used this guide: <a href="https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/">How Gatsby works with github pages</a>
+
 :construction: Work in progress :construction:
 - ( In Progress ) Flexbox Layout
 - ( Not started ) Grid Layout
